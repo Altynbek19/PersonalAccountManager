@@ -3,7 +3,7 @@ public class Main {
         PersonalAccount account = new PersonalAccount(12345, "Altynbek Zhonguchkaev");
         account.deposit(1000);
         account.deposit(500);
-        account.withdraw(300);
+        account.withdraw(1200);
         account.printTransactionHistory();
         System.out.println("Текущий баланс: " + account.getBalance());
     }
